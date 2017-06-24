@@ -13,6 +13,7 @@
 		D9C047F41EFE4ABA00950605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C047F21EFE4ABA00950605 /* Main.storyboard */; };
 		D9C047F61EFE4ABA00950605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C047F51EFE4ABA00950605 /* Assets.xcassets */; };
 		D9C047F91EFE4ABA00950605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C047F71EFE4ABA00950605 /* LaunchScreen.storyboard */; };
+		D9C048031EFE4B6C00950605 /* CQNumberIncreaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C048021EFE4B6C00950605 /* CQNumberIncreaseLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D9C047F51EFE4ABA00950605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C047F81EFE4ABA00950605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C047FA1EFE4ABA00950605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C048011EFE4B6C00950605 /* CQNumberIncreaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQNumberIncreaseLabel.h; sourceTree = "<group>"; };
+		D9C048021EFE4B6C00950605 /* CQNumberIncreaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQNumberIncreaseLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		D9C047E81EFE4ABA00950605 /* Demo-CQNumberIncreaseLabel */ = {
 			isa = PBXGroup;
 			children = (
+				D9C048001EFE4B0E00950605 /* CQNumberIncreaseLabel */,
 				D9C047EC1EFE4ABA00950605 /* AppDelegate.h */,
 				D9C047ED1EFE4ABA00950605 /* AppDelegate.m */,
 				D9C047EF1EFE4ABA00950605 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				D9C047EA1EFE4ABA00950605 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9C048001EFE4B0E00950605 /* CQNumberIncreaseLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D9C048011EFE4B6C00950605 /* CQNumberIncreaseLabel.h */,
+				D9C048021EFE4B6C00950605 /* CQNumberIncreaseLabel.m */,
+			);
+			path = CQNumberIncreaseLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C047F11EFE4ABA00950605 /* ViewController.m in Sources */,
+				D9C048031EFE4B6C00950605 /* CQNumberIncreaseLabel.m in Sources */,
 				D9C047EE1EFE4ABA00950605 /* AppDelegate.m in Sources */,
 				D9C047EB1EFE4ABA00950605 /* main.m in Sources */,
 			);
